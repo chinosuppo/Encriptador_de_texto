@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de texto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <h1 class="titulo">Encriptador de textos</h1>
+
+  <main class="main">
+
+    <section class="box">
+
+      <form action="">
+
+        <label for="input-texto">Solo letras minúsculas, sin acento</label>
+        <input class="text-input" type="text" name="" id="textoInicial" placeholder="Ingrese el texto aqui">
+       <!-- <input onclick="btn_encripta()" class="btn" type="submit" value="Encriptar!" id="texto_encriptado" >
+        <input onclick="btn_desencriptar()" class="btn" type="submit" value="Desencriptar!" id="texto_desencriptado" > -->
+        <button type="reset" class="btn" onclick="btn_encriptar()">ENCRIPTAR!</button>
+        <button type="reset" class="btn" onclick="btn_desencriptar()">DESENCRIPTAR!</button>
+
+      
+      </form>
+
+    </section>
+  
+    <section class="box">
+      
+      <h3 class="subtitulo">Mensaje encriptado:</h3>
+      	
+      <form action="">
+
+      	<input class="text-input" type="text" id="textoFinal">
+	  	<button type="reset" id="copy" class="btn">COPIAR</button>
+
+      </form>
+      
+      
+    </section>
+
+    <footer>
+		<p>Trabajo realizado por Carlos Suppo para Alura Challenge</p>
+	</footer>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
